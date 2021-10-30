@@ -38,7 +38,7 @@ const RemoveServices = () => {
             <div className="container text-black mt-5 mb-5" >
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     {services.map(service => <div className="col" key={service.key} >
-                        <div className="card h-100 hover">
+                        <div className="card h-100 hover custom-cart">
                             <img src={service.img} className="img-fluid rounded-start w-100" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">{service.name}</h5>

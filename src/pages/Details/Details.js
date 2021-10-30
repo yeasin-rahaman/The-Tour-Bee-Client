@@ -14,7 +14,7 @@ const Details = () => {
 
             {selected ? (
                 <div className="container my-5">
-                    <div class="card mb-3">
+                    <div class="card custom-cart mb-3">
                         <img src={serviceDetails.img} class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h1 class="card-title">{serviceDetails.name}</h1>
