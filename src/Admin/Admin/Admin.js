@@ -9,7 +9,7 @@ import './Admin.css'
 const Admin = () => {
     const [active, setActive] = useState('admin panel')
     return (
-        <div className="row">
+        <div className="row admin">
             <div className="d-flex flex-column flex-shrink-0 bg-light vh-100 col-md-1 col-3">
                 <ul className="nav nav-pills nav-flush flex-column mb-auto text-center">
                     <li className="nav-link active py-3 border-bottom nav-item" onClick={() => setActive('admin panel')}> <i className="fa fa-home"></i> <small>Admin Panel</small></li>

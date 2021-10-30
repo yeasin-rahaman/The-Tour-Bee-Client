@@ -1,7 +1,7 @@
 import React from 'react';
 import doctorImg from './../../../assets/images/doctor.jpg'
 
-const Doctor = () => {
+const Guide = () => {
     return (
         <div className="container py-5">
             <div class="d-flex mt-5 justify-content-center "><h1>About Hospital</h1></div>
@@ -25,4 +25,4 @@ const Doctor = () => {
     );
 };
 
-export default Doctor;
+export default Guide;

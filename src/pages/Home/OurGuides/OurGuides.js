@@ -4,7 +4,7 @@ import ourDoctor2 from './../../../assets/images/otrdoctor(2).jpg'
 import ourDoctor3 from './../../../assets/images/otrdoctor(3).jpg'
 import ourDoctor4 from './../../../assets/images/otrdoctor(4).jpg'
 
-const OurDoctors = () => {
+const OurGuides = () => {
     return (
         <div className='container py-5'>
             <div class="d-flex my-5 justify-content-center"><h1>Our Doctors</h1></div>
@@ -55,4 +55,4 @@ const OurDoctors = () => {
     );
 };
 
-export default OurDoctors;
+export default OurGuides;

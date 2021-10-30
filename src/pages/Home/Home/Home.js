@@ -1,18 +1,18 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
-import Doctor from '../Doctor/Doctor';
+import Guide from '../Guide/Guide';
 import HomeServices from '../HomeServices/HomeServices';
-import OurDoctors from '../OurDoctors/OurDoctors';
-import Patient from '../Patient/Patient';
+import OurGuides from '../OurGuides/OurGuides';
+import GetInTouch from '../GetInTouch/GetInTouch';
 
 const Home = () => {
     return (
         <div id="home">
             <Banner></Banner>
             <HomeServices></HomeServices>
-            <Doctor></Doctor>
-            <OurDoctors></OurDoctors>
-            <Patient></Patient>
+            <Guide></Guide>
+            <OurGuides></OurGuides>
+            <GetInTouch></GetInTouch>
 
 
         </div>

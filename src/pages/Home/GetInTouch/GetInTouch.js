@@ -2,7 +2,7 @@ import React from 'react';
 import patientImg from './../../../assets/images/patient.jpg'
 import './Patint.css'
 
-const Patient = () => {
+const GetInTouch = () => {
     return (
         <div className="py-5">
             <div id="subscribe" class="container d-flex justify-content-center bg-panda-header align-items-center rounded-3 text-center">
@@ -29,4 +29,4 @@ const Patient = () => {
     );
 };
 
-export default Patient;
+export default GetInTouch;
