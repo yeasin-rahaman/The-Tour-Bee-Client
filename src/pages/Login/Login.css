@@ -1,0 +1,6 @@
+.input-group-text{
+    background-color: none;
+}
+.custom-body{
+    height: calc(100vh - 200px);
+}

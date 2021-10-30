@@ -1,0 +1,65 @@
+[
+  {
+    "key": 1,
+    "img": "https://i.ibb.co/KLLH9yC/care-9.png",
+    "name": "Anesthesiology",
+    "price": 55,
+    "desc": "Anesthesiology is the medical specialty concerned with the total perioperative care of patients before, during and after surgery. It encompasses anesthesia, intensive care medicine, critical emergency medicine, and pain medicine. A physician specialized in anesthesiology is called an anesthesiologist."
+  },
+  {
+    "key": 2,
+    "img": "https://i.ibb.co/NVSCPrx/care-8.png",
+    "name": "cardiac rehabilitation",
+    "price": 55,
+    "desc": "Cardiac rehabilitation is defined by the World Health Organization as The sum of activity and interventions required to ensure the best possible physical, mental, and social conditions so that patients"
+  },
+  {
+    "key": 3,
+    "img": "https://i.ibb.co/Fx0k8CZ/care-7.png",
+    "name": "Diabetes (Endocrinology)",
+    "price": 55,
+    "desc": "The main glands of the endocrine system are the adrenal glands, ovaries and testicles, pancreas, pituitary gland, parathyroid glands and thyroid gland. These glands secrete hormones (chemical messengers) into the circulation which have an effect on specific organs of the body."
+  },
+  {
+    "key": 4,
+    "img": "https://i.ibb.co/N6m4BtR/care-6.png",
+    "name": "Internal Medicine",
+    "price": 55,
+    "desc": "Internal medicine or general internal medicine is the medical specialty dealing with the prevention, diagnosis, and treatment of internal diseases. Physicians specializing in internal medicine are called internists, or physicians in Commonwealth nations."
+  },
+  {
+    "key": 5,
+    "img": "https://i.ibb.co/S65xHdn/care-5.png",
+    "name": "rehabilitation therapies",
+    "price": 55,
+    "desc": "Physical medicine and rehabilitation, also known as physiatry, is a branch of medicine that aims to enhance and restore functional ability and quality of life to people with physical impairments or disabilities."
+  },
+  {
+    "key": 6,
+    "img": "https://i.ibb.co/5h0bsyM/care-3.png",
+    "name": "Weight Management",
+    "price": 55,
+    "desc": "Weight management is the phrase used to describe both the techniques and underlying physiological processes that contribute to a person's ability to attain and maintain a certain weight. Most weight management techniques encompass long-term lifestyle strategies that promote healthy eating and daily physical activity."
+  },
+  {
+    "key": 7,
+    "img": "https://i.ibb.co/Hq8xzNt/care-4.png",
+    "name": "Rehabilitation therapies",
+    "price": 55,
+    "desc": "Physical medicine and rehabilitation, also known as physiatry, is a branch of medicine that aims to enhance and restore functional ability and quality of life to people with physical impairments or disabilities."
+  },
+  {
+    "key": 8,
+    "img": "https://i.ibb.co/J7qSwkM/care-2.png",
+    "name": "Speech-Language Therapy",
+    "price": 55,
+    "desc": "Radiation therapy or radiotherapy, often abbreviated RT, RTx, or XRT, is a therapy using ionizing radiation, generally provided as part of cancer treatment to control or kill malignant cells and normally delivered by a linear accelerator."
+  },
+  {
+    "key": 9,
+    "img": "https://i.ibb.co/yXDgQ35/care-1.png",
+    "name": "radiation therapy to treat cancer",
+    "price": 55,
+    "desc": "Radiation therapy (also called radiotherapy) is a cancer treatment that uses high doses of radiation to kill cancer cells and shrink tumors. At low doses, radiation is used in x-rays to see inside your body, as with x-rays of your teeth or broken bones."
+  }
+]
