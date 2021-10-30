@@ -18,7 +18,6 @@ const Login = () => {
     const location = useLocation();
     const history = useHistory();
     const redirect = location.state?.from || "/home";
-    console.log(redirect)
 
     return (
 

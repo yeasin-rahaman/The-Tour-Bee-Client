@@ -11,6 +11,7 @@ const Signup = () => {
     const { allContexts } = UseAuth();
     const { signUp, getEmail, getPassword, getName, error, signInWithGoogle, signInWithGitHub } = allContexts;
     return (
+
         <div className="text-center my-5 custom-body">
             <h2>Please Sign Up</h2>
             <p className=" mt-2">Signup with Email & Password</p>
