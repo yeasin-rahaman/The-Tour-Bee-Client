@@ -21,7 +21,7 @@ const RemoveServices = () => {
                 if (data.deletedCount) {
                     const remaining = services?.filter(service => service._id !== id);
                     setServices(remaining);
-                    alert('Sucsessfull deleted')
+                    alert('Remove From Database Successfully')
 
                 }
 

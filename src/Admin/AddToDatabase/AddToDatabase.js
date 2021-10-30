@@ -12,7 +12,7 @@ const AddToDatabase = () => {
         axios.post('https://protected-beyond-83036.herokuapp.com/services', data)
             .then(res => {
                 if (res.data.insertedId) {
-                    alert('adder successfully')
+                    alert('Added to Database successfully')
                     reset()
                 }
             })
@@ -38,8 +38,9 @@ const AddToDatabase = () => {
                             <span className="shadow-input1"></span>
                         </div>
 
-                        <div className="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                            <input className="input1" placeholder="Image URL"  {...register("Img",)} />
+                        <div className="wrap-input1 validate-input" data-validate="url">
+                            <input type="text" />
+                            <input className="input1" placeholder="Image URL"  {...register("img",)} />
                             <span className="shadow-input1"></span>
                         </div>
 
@@ -73,3 +74,7 @@ const AddToDatabase = () => {
 };
 
 export default AddToDatabase;
+
+<input
+
+/>
