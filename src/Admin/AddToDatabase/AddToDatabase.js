@@ -34,7 +34,7 @@ const AddToDatabase = () => {
                         </span>
 
                         <div className="wrap-input1 validate-input" data-validate="Name is required">
-                            <input className="input1" placeholder="Name" {...register("name", { required: true, maxLength: 20 })} />
+                            <input className="input1" placeholder="Name" {...register("name", { required: true, })} />
                             <span className="shadow-input1"></span>
                         </div>
 
@@ -50,7 +50,7 @@ const AddToDatabase = () => {
                         </div>
 
                         <div className="wrap-input1 validate-input" data-validate="Message is required">
-                            <textarea className="input1" placeholder="Description"{...register("Description",)} />
+                            <textarea className="input1" placeholder="Description"{...register("desc",)} />
                             <span className="shadow-input1"></span>
                         </div>
 

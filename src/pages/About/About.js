@@ -13,12 +13,8 @@ const About = () => {
                                 <img src={about} class="img-fluid" alt="Web Development" />
                             </div>
                             <div class="col-lg-6">
-                                <h1 class="mt-3">The Health Care Hospital</h1>
-                                <p class=" my-5">The success of hospitals and healthcare providers depends on the quality of their service. But in an age where most of us look up information online before making almost any decision, a well-designed healthcare website is no less important.
-
-                                    Most of the people visit a hospital website to get information. So these sites must be very user-friendly, easy to navigate and extremely well-organised with a pleasing aesthetics.
-
-                                    Based on these criteria we’ve listed some of the best medical and healthcare websites, mostly from Australia. Any website for a doctor’s clinic or a hospital can follow the good parts of these sites.</p>
+                                <h1 class="mt-3">About Our Tourist Guides</h1>
+                                <p class=" my-5">Tour guides, or tourist guides, are members of the hospitality and travel industry who show visitors around places of interest. Tour guides may lead groups or individuals through historical sites, museums, geographic destinations and on outdoor excursions. Typically, tour guides posses relevant cultural, historical and practical knowledge they can share with tourists. Companies and organizations often hire guides to provide a worthwhile experience for guests, guides may possess exceptional knowledge and skill about their chosen destination, culture or recreational activity.</p>
                             </div>
                         </div>
                     </div>

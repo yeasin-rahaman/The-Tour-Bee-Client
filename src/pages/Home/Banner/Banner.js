@@ -17,8 +17,8 @@ const Banner = () => {
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                            <h3>Best Doctors</h3>
-                            <p>Get an Expert Medical Opinion from one of our world-renowned specialists so you can have the answers and confidence to make informed decisions about your health.Nulla vitae </p>
+                            <h3>Gustave Flaubert</h3>
+                            <p>“Travel makes one modest. You see what a tiny place you occupy in the world.”</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -28,8 +28,8 @@ const Banner = () => {
                             alt="Second slide"
                         />
                         <Carousel.Caption>
-                            <h3>Best Care</h3>
-                            <p>It is possible to improve and cure health when you are sick. But it is not possible for your health to remain healthy forever. You can get rid of the disease and there are some diseases that can cause you to die.</p>
+                            <h3>Ray Bradbury</h3>
+                            <p>“See the world. It's more fantastic than any dream made or paid for in factories. Ask for no guarantees, ask for no security.”</p>
                         </Carousel.Caption>
 
                     </Carousel.Item>
@@ -40,8 +40,8 @@ const Banner = () => {
                             alt="Third slide"
                         />
                         <Carousel.Caption>
-                            <h3>Best Treatment</h3>
-                            <p>You will have to go through a lot of trouble to find a suitable doctor by visiting the hospital during your illness. Gratefully, here we have made a list of the top 10 doctors in Bangladesh. With this list, you can easily choose a good doctor and helps you to make an appointment with them.</p>
+                            <h3>Terry Pratchett</h3>
+                            <p>“Twoflower was a tourist, the first ever seen on the discworld. Tourist, Rincewind had decided, meant 'idiot'.”</p>
                         </Carousel.Caption>
 
                     </Carousel.Item>

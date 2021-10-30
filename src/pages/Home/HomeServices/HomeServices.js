@@ -1,6 +1,8 @@
 import React from 'react';
+
 import { NavLink } from 'react-router-dom';
 import UseAuth from '../../../hooks/UseAuth';
+import spinner from './../../../assets/Infinity-1s-200px.svg'
 
 const HomeServices = () => {
     const { services } = UseAuth()
@@ -11,19 +13,27 @@ const HomeServices = () => {
             <h2>{services.desc}</h2>
             <div className="container text-black mt-5 mb-5" >
                 <div className="row row-cols-1 row-cols-md-3 g-4">
-                    {homeServices?.map(service => <div className="col" key={service.key} >
-                        <div className="card h-100 hover">
-                            <img src={service.img} className="img-fluid rounded-start w-100" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">{service.title}</h5>
-                                <p className="card-text">{service.desc}</p>
-                            </div>
-                            <div className="card-footer  text-center">
-                                <NavLink to="/services" className="btn-grad">View Details</NavLink>
-                            </div>
 
-                        </div>
-                    </div>)
+                    {
+                        services.length === 0 ?
+                            <div className=" justify-content-center w-100 d-flex">
+                                <img src={spinner} alt="" />
+                            </div>
+                            :
+
+                            homeServices?.map(service => <div className="col" key={service.key} >
+                                <div className="card custom-cart h-100 hover">
+                                    <img src={service.img} className="img-fluid rounded-start w-100" alt="..." />
+                                    <div className="card-body">
+                                        <h5 className="card-title">{service.name}</h5>
+                                        <p className="card-text">{service.desc}</p>
+                                    </div>
+                                    <div className="card-footer  text-center">
+                                        <NavLink to="/services" className="btn-grad">View Details</NavLink>
+                                    </div>
+
+                                </div>
+                            </div>)
                     }
 
                 </div>

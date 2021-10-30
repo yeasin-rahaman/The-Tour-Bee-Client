@@ -1,24 +1,24 @@
 [
   {
     "key": 1,
-    "img": "https://i.ibb.co/KLLH9yC/care-9.png",
-    "name": "Anesthesiology",
-    "price": 55,
-    "desc": "Anesthesiology is the medical specialty concerned with the total perioperative care of patients before, during and after surgery. It encompasses anesthesia, intensive care medicine, critical emergency medicine, and pain medicine. A physician specialized in anesthesiology is called an anesthesiologist."
+    "img": "https://i.ibb.co/58Pqknm/giant-90441.jpg",
+    "name": "Pattaya-Bangkok Tour for 6 Days and 5 Nights",
+    "price": 255,
+    "desc": "Package includes visa, return air ticket, buffet breakfast, 3-star hotel accommodation, sightseeing, transport, all taxes, guide service."
   },
   {
     "key": 2,
-    "img": "https://i.ibb.co/NVSCPrx/care-8.png",
-    "name": "cardiac rehabilitation",
+    "img": "https://i.ibb.co/x2pgckD/giant-84227.jpg",
+    "name": "Bangkok 3 Days 2 Nights Holiday Tour Package",
     "price": 55,
-    "desc": "Cardiac rehabilitation is defined by the World Health Organization as The sum of activity and interventions required to ensure the best possible physical, mental, and social conditions so that patients"
+    "desc": "Accommodation in 3 star hotel or similar, everyday American buffet breakfast, half day city tour in Bangkok, return airport transfer, gems gallery shopping tour."
   },
   {
     "key": 3,
-    "img": "https://i.ibb.co/Fx0k8CZ/care-7.png",
-    "name": "Diabetes (Endocrinology)",
+    "img": "https://i.ibb.co/qg3Q9LV/giant-59332.jpg",
+    "name": "Maldives Paradise Island Resort 4 Days 3 Nights Tour Package",
     "price": 55,
-    "desc": "The main glands of the endocrine system are the adrenal glands, ovaries and testicles, pancreas, pituitary gland, parathyroid glands and thyroid gland. These glands secrete hormones (chemical messengers) into the circulation which have an effect on specific organs of the body."
+    "desc": "Maldives Paradise Island Resort 4 days 3 nights tour package has 3 nights in 3 star beach view hotel, full day trip to Paradise Island Resort, Male city tour by boat and walk, everyday breakfast in hotel, return airport transport and return resort transport."
   },
   {
     "key": 4,
@@ -29,37 +29,37 @@
   },
   {
     "key": 5,
-    "img": "https://i.ibb.co/S65xHdn/care-5.png",
-    "name": "rehabilitation therapies",
-    "price": 55,
-    "desc": "Physical medicine and rehabilitation, also known as physiatry, is a branch of medicine that aims to enhance and restore functional ability and quality of life to people with physical impairments or disabilities."
+    "img": "https://i.ibb.co/PtYSbXR/CREATOR-gd-jpeg-v1-0-using-IJG-JPEG-v80-quality-100.jpg",
+    "name": "3 Day 2 Night Dhaka to Cox's Bazar Tour with Air Ticket",
+    "price": 99,
+    "desc": "Dhaka - Cox's Bazar 3 days 2 nights travel package. Package includes Dhaka – Cox’s Bazar – Dhaka by Air tickets. 2 nights twin accommodation at the hotel. A breakfast facility will be provided at the hotel."
   },
   {
     "key": 6,
-    "img": "https://i.ibb.co/5h0bsyM/care-3.png",
-    "name": "Weight Management",
+    "img": "https://i.ibb.co/RPc3ZVT/giant-13255.jpg",
+    "name": "Sundarban Tour Package from Khulna",
     "price": 55,
-    "desc": "Weight management is the phrase used to describe both the techniques and underlying physiological processes that contribute to a person's ability to attain and maintain a certain weight. Most weight management techniques encompass long-term lifestyle strategies that promote healthy eating and daily physical activity."
+    "desc": "Khulna-Sundarban-Khulna 2 night 3 days travel package. Lets see what's service will provide you - Two well trained forest guards from Govt.of forest department are engaged for safety. Experienced Sundarban tourist guide for all time directions.."
   },
   {
     "key": 7,
-    "img": "https://i.ibb.co/Hq8xzNt/care-4.png",
-    "name": "Rehabilitation therapies",
+    "img": "https://i.ibb.co/V37Qvd4/CREATOR-gd-jpeg-v1-0-using-IJG-JPEG-v80-quality-90.jpg",
+    "name": "Excellent 4 Days & 3 Nights Tour Package at Kathmandu Nepal",
     "price": 55,
-    "desc": "Physical medicine and rehabilitation, also known as physiatry, is a branch of medicine that aims to enhance and restore functional ability and quality of life to people with physical impairments or disabilities."
+    "desc": "Excellent Kathmandu tour package in Nepal for 4 days and 3 nights including tax, breakfast, guide sevice."
   },
   {
     "key": 8,
     "img": "https://i.ibb.co/J7qSwkM/care-2.png",
-    "name": "Speech-Language Therapy",
+    "name": "Nepal Tour Package Kathmandu-Pokhara",
     "price": 55,
-    "desc": "Radiation therapy or radiotherapy, often abbreviated RT, RTx, or XRT, is a therapy using ionizing radiation, generally provided as part of cancer treatment to control or kill malignant cells and normally delivered by a linear accelerator."
+    "desc": "Exclusive 4 days 3 nights Kathmandu-Pokhara holiday package tour. This exclusive Nepal vacation package deal, half-day tour in Kathmandu."
   },
   {
     "key": 9,
     "img": "https://i.ibb.co/yXDgQ35/care-1.png",
-    "name": "radiation therapy to treat cancer",
+    "name": "2 Nights / 3 Days Sylhet Tour Package",
     "price": 55,
-    "desc": "Radiation therapy (also called radiotherapy) is a cancer treatment that uses high doses of radiation to kill cancer cells and shrink tumors. At low doses, radiation is used in x-rays to see inside your body, as with x-rays of your teeth or broken bones."
+    "desc": "Package includes hotel accommodation, 3 times foods, pick and drop from hotel, visit Ratargul / Sada Pathor / Two Majar and other tourism place in the city, 3 times tea with evening snacks."
   }
 ]

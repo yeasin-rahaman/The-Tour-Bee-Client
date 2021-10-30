@@ -11,8 +11,9 @@ const UseFirebase = () => {
     const [user, setUser] = useState({});
     const [error, setError] = useState("");
     const [name, setName] = useState("")
-    const [email, setEmail] = useState("")
-    const [password, setPassword] = useState("")
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [loading, setLoading] = useState(true);
 
 
 
@@ -72,14 +73,15 @@ const UseFirebase = () => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
             if (user) {
                 setUser(user);
-
             }
             else {
                 setUser({});
             }
+            setLoading(false)
         });
         return () => unsubscribe;
     }, [])
+
 
     // sign Out 
 
@@ -132,7 +134,8 @@ const UseFirebase = () => {
         signUp,
         getName,
         setError,
-        setUser
+        setUser,
+        loading
 
     }
 };

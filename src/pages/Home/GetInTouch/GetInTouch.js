@@ -1,6 +1,6 @@
 import React from 'react';
-import patientImg from './../../../assets/images/patient.jpg'
-import './Patint.css'
+import getInTouch from './../../../assets/images/getInTouch.jpg'
+import './GetInTouch.css'
 
 const GetInTouch = () => {
     return (
@@ -18,10 +18,10 @@ const GetInTouch = () => {
 
 
             <div class="card  my-5 h-50 text-center my-auto mt-5 mb-5" >
-                <img src={patientImg} class="card-img  patient-img" alt="..." />
+                <img src={getInTouch} class="card-img  patient-img" alt="..." />
                 <div class="card-img-overlay container custom-card ">
-                    <h5 class="card-title">Who has best doctors in the world?</h5>
-                    <p class="card-text">Ranking which countries have the best doctors in the world is a difficult task. The topic is simply too broad to come up with a definitive and accurate list.</p>
+                    <h5 class="card-title text-white">Who has best Tour plans in the world?</h5>
+                    <p class="card-text text-white">Tour plan provides world leading tour operator software, with sales, bookings and back office systems for destination management companies and tour</p>
 
                 </div>
             </div>
