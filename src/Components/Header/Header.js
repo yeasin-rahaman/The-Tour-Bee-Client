@@ -13,7 +13,7 @@ const Header = () => {
         <div>
             <Navbar bg="light" expand="lg" className="myHeader">
                 <Container>
-                    <Nav.Link as={NavLink} to="/home"><Navbar.Brand href="#home"> <img src={logo} alt="" /><strong className="text-white ps-1">The Tour Bee</strong></Navbar.Brand></Nav.Link>
+                    <Nav.Link as={NavLink} to="/home"><Navbar.Brand href="#home"> <img src={logo} alt="" /></Navbar.Brand></Nav.Link>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
