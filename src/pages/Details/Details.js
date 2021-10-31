@@ -4,10 +4,7 @@ import { useParams } from 'react-router';
 
 
 const Details = () => {
-    const { id } = useParams()
-    // const { services } = UseAuth()
-    // const serviceDetails = services?.find((service) => service.key === Number(id));
-    // const selected = serviceDetails?.name;
+    const { id } = useParams();
 
     const [selected, setSelected] = useState({});
     console.log(id)
@@ -25,7 +22,7 @@ const Details = () => {
 
     return (
         <div>
-            <div className="container my-5">
+            <div className="container my-5 custom-body">
                 <div className="card custom-cart mb-3">
                     <img src={selected.img} className="card-img-top" alt="..." />
                     <div className="card-body">
