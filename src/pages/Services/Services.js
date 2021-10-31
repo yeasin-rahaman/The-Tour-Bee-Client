@@ -27,7 +27,7 @@ const Services = () => {
                             </div>
                             :
 
-                            services.map(service => <div className="col" key={service.key} >
+                            services.map(service => <div className="col" key={service._id} >
                                 <div className="card custom-cart h-100 hover">
                                     <img src={service.img} className="img-fluid rounded-start w-100" alt="..." />
                                     <div className="card-body">
@@ -36,7 +36,8 @@ const Services = () => {
                                     </div>
                                     <div className="card-footer  text-center">
                                         <h5 className="text-warning p-2">Price $: {service.price}</h5>
-                                        <NavLink to={`/services/${service.key}`} className="btn-grad">View Details</NavLink>
+                                        <NavLink to={`/services/${service._id}`} className="btn-grad">View Details</NavLink>
+
                                     </div>
                                 </div>
                             </div>)

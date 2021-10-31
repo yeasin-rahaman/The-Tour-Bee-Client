@@ -1,28 +1,40 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import UseAuth from '../../hooks/UseAuth';
+
 
 
 const Details = () => {
     const { id } = useParams()
-    const { services } = UseAuth()
-    const serviceDetails = services?.find((service) => service.key === Number(id));
-    const selected = serviceDetails?.name;
+    // const { services } = UseAuth()
+    // const serviceDetails = services?.find((service) => service.key === Number(id));
+    // const selected = serviceDetails?.name;
+
+    const [selected, setSelected] = useState({});
+    console.log(id)
+
+
+    useEffect(() => {
+        fetch(`https://protected-beyond-83036.herokuapp.com/services/${id}`)
+            .then((res) => res.json())
+            .then((data) => setSelected(data));
+    }, []);
+
+
+
+
 
     return (
         <div>
-
-            {selected ? (
-                <div className="container my-5">
-                    <div class="card custom-cart mb-3">
-                        <img src={serviceDetails.img} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h1 class="card-title">{serviceDetails.name}</h1>
-                            <p class="card-text">{serviceDetails.desc}</p>
-                        </div>
+            <div className="container my-5">
+                <div className="card custom-cart mb-3">
+                    <img src={selected.img} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h1 className="card-title">{selected.name}</h1>
+                        <p className="card-text">{selected.desc}</p>
                     </div>
                 </div>
-            ) : <h1>No data found</h1>}
+            </div>
+
         </div >
     );
 };
