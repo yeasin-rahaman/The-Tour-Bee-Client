@@ -16,7 +16,7 @@ const Services = () => {
                     <img className="services-image w-100 img-fluid" src={servicesImg} alt="" />
                 </div>
             </div>
-            <div class="d-flex mt-5 justify-content-center "><h1>Services</h1></div>
+            <div class="d-flex mt-5 justify-content-center "><h1>Packages</h1></div>
             <h2>{services.desc}</h2>
             <div className="container text-black mt-5 mb-5" >
                 <div className="row row-cols-1 row-cols-md-3 g-4">
