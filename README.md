@@ -4,7 +4,7 @@
   
 <hr>
 
-<h2>This website is for Tour Booking Packages</h2>
+<h2>This website is for Tour Booking</h2>
 <br>
 <h2>Functionality</h2>
 <ul> 
